@@ -1,0 +1,176 @@
+.crvenaSlova{
+    color:#f13a11 !important;
+}
+.zelenaSlova{
+    color:#098203;
+}
+.greskeForma{
+    color:#f13a11 !important;
+    text-transform: uppercase;
+}
+.sakrij{
+    display: none;
+}
+.format{
+    font-size: 12px;
+}
+/* #posalji{
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+} */
+#uspesnaForma{
+    font-size: 20px;
+    color:#098203;
+}
+.slike{
+    width: 45%;
+    width: 45%;
+    justify-content: center;
+    margin: 20px;
+}
+.slike img{
+    width: 100%;
+    height: 80%;
+}
+.slider{
+    background-color: #171819;
+}
+.opis{
+    color: white !important;
+    padding: 0px;
+    margin: 0px;
+}
+.opis h4{
+    color: gray;
+    font-size: 20px ;
+}
+.opis p{
+    font-size: 15px;
+    color: white !important;
+}
+.dugme{
+    background-color:  #171819;
+    color: #f13a11;
+    border-radius: 3px;
+    width: 100%;
+    height: 45px;
+}
+.dugme:hover{
+    color:  white;
+    background-color: #f13a11; 
+}
+.slajd{
+    align-items: center;
+    text-align: center;
+    margin: 20px auto;
+}
+.sredi{
+    border-radius: 5px;
+}
+
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0.2px;
+    background-color: #171819;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+.dot:hover{
+    background-color:#f13a11; 
+}
+
+.fade
+{
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+.prev, .next{
+    cursor: pointer;
+    position: relative;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    background-color: transparent;
+}
+.next{
+    right: 0;
+    border-radius: 3px 0px 0px 3px;
+}
+.prev:hover{
+    background-color: rgba(0,0,0,0.8);
+    color: white !important;
+}
+.next:hover{
+    background-color: rgba(0,0,0,0.8);
+    color: white !important;
+}
+.probaj{
+    width: 80%;
+}
+.futer{
+    font-size: 30px;
+}
+.futer:hover{
+    color: #f13a11; 
+}
+
+#logo{
+    border-bottom-color: #f13a11; 
+    border-bottom-width: 0px;
+    border-bottom-style: solid;
+}
+
+
+
+/* test */
+
+/* #slide_background {
+    transition: all 0.3s 0.3s;
+  }
+  #membershipForm,
+  #slide_wrapper {
+    transition: all 0.3s ease-out;
+  }
+  #membershipForm {
+    transform: translateX(0) translateY(-40%);
+  }
+  .popup_visible #slide {
+    transform: translateX(0) translateY(0);
+  } */
+
+@media screen and (max-width: 1000px) {
+    .opis h4{
+        font-size: 14px ;
+    }
+    .opis p{
+        font-size: 10px;
+    }
+}
+@media screen and (max-width: 600px){
+    .opis h4{
+        font-size: 10px ;
+    }
+    .opis p{
+        font-size: 8px;
+    }
+    .prev, .next{
+        
+        padding: 10px;
+        font-size: 9px;
+
+    }
+};
